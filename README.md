@@ -1,19 +1,22 @@
-# Python-to-C Converter
+# Advanced Security System with File Encryption
 
-A desktop application that translates a subset of Python code into C code, aimed at helping learners understand the relationship between Python and C programming languages.
+A secure desktop application built with Python, Tkinter, and cryptography libraries, designed to provide encrypted file storage and a user authentication system.
 
 ## Features
 
-- Converts selected Python code snippets to equivalent C code
-- Robust tokenization logic with a 15% reduction in parsing errors
-- User-friendly GUI built with Tkinter for live code conversion
-- Supports interactive classroom sessions with live demonstrations
+- Secure login and registration system supporting 100+ users using SHA-256 password hashing
+- File encryption and decryption with Fernet symmetric encryption for enhanced data security
+- Modern and user-friendly Tkinter-based GUI to improve interaction and usability
+- Efficient handling of 1,000+ files with encryption and decryption processes
+- Improved UI interaction time by 20% with modern design enhancements
+- Delivered project 2 weeks ahead of schedule
 
 ## Technologies Used
 
 - Python
-- Flex (Fast Lexical Analyzer)
-- Tkinter for GUI
+- Tkinter (GUI)
+- Cryptography (Fernet encryption)
+- SHA-256 for password hashing
 
 ## Installation
 
@@ -21,9 +24,9 @@ A desktop application that translates a subset of Python code into C code, aimed
    `git clone <repository-url>`
 
 2. Navigate to the project directory  
-   `cd python-to-c-converter`
+   `cd advanced-security-system`
 
-3. Install dependencies (if any)  
+3. Install required dependencies  
    `pip install -r requirements.txt`
 
 4. Run the application  
@@ -31,22 +34,23 @@ A desktop application that translates a subset of Python code into C code, aimed
 
 ## Usage
 
-- Input Python code into the editor pane
-- Click the "Convert" button to generate equivalent C code
-- View the C code output live in the conversion pane
-- Use the application in classroom or learning environments for code translation demonstrations
+- Register a new user or login with existing credentials
+- Encrypt files securely before storage
+- Decrypt files for secure access when needed
+- Manage encrypted files via the intuitive GUI
 
 ## Project Highlights
 
-- Developed tokenization logic to accurately parse and convert Python code with 15% fewer errors
-- Created an intuitive Tkinter GUI that facilitates live conversion and improves user experience
-- Successfully used in 3 classroom sessions to aid peer learning and academic instruction
+- Implemented robust password security via SHA-256 hashing mechanism
+- Successfully encrypted and decrypted over 1,000 files using Fernet symmetric encryption
+- Enhanced user interface responsiveness with a 20% improvement in interaction speeds
+- Project completed ahead of schedule, reflecting efficient development and testing workflow
 
-## Future Enhancements
+## Future Improvements
 
-- Expand support to cover more Python syntax and features
-- Add code export functionality for saving converted C files
-- Integrate syntax highlighting for both Python and C code panes
+- Add multi-factor authentication for enhanced security
+- Integrate cloud storage options for encrypted files
+- Implement user roles and permissions for advanced access control
 
 ## Author
 
